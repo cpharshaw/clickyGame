@@ -1,0 +1,68 @@
+
+body {
+  /* background-image: url('https://cdn.wallpapersafari.com/6/2/ab9Fju.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;  */
+  background-color: whitesmoke;
+}
+
+header  {
+  background-color: #282c34;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  min-height: 65px;
+  max-height: fit-content;  
+  box-shadow: 0 5px 17px black;
+}
+
+footer {
+  background-color: #282c34;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  z-index: 99;
+  overflow-x: hidden;
+  box-shadow: 5px 0 17px black;
+}
+
+section {
+  min-height: 130px;
+  max-height: fit-content;
+  /* background-color: red; */
+}
+
+main {
+  min-height: calc((100vh - 260px));
+  max-height: fit-content;
+  /* background-color: whitesmoke; */
+  overflow-y: hidden;
+  /* margin-bottom: 200px; */
+}
+
+
+img {
+  height: 120px;
+  width: auto;
+  box-shadow: 0 5px 17px black;
+}
+
+.test {
+  /* background-color: whitesmoke; */
+  /* height: fit-content; */
+}
+
+.vertCenter {
+  /* padding-top: 90px; */
+  /* padding-bottom: 90px; */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.instruct {
+  color: #282c34;
+}
