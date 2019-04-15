@@ -1,9 +1,5 @@
 
 body {
-  /* background-image: url('https://cdn.wallpapersafari.com/6/2/ab9Fju.jpg');
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;  */
   background-color: whitesmoke;
 }
 
@@ -17,14 +13,20 @@ header  {
   box-shadow: 0 5px 17px black;
 }
 
+.memory {
+  font-size: 35px;
+  
+}
+
 footer {
   background-color: #282c34;
   position: fixed;
   bottom: 0;
-  height: 65px;
+  height: 25px;
   width: 100%;
   z-index: 99;
   overflow-x: hidden;
+  overflow-y: hidden;
   box-shadow: 5px 0 17px black;
 }
 
@@ -43,21 +45,16 @@ main {
 }
 
 
-img {
-  height: 120px;
+.cardImg {
+  height: 150px;
   width: auto;
   box-shadow: 0 5px 17px black;
 }
 
-.test {
-  /* background-color: whitesmoke; */
-  /* height: fit-content; */
+.marvelLogo {
+  height: 65px;
 }
 
-.vertCenter {
-  /* padding-top: 90px; */
-  /* padding-bottom: 90px; */
-}
 
 p, h1, h2, h3, h4, h5, h6 {
   color: white;
@@ -65,4 +62,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .instruct {
   color: #282c34;
+}
+
+
+.instructions {
+  /* background: red; */
 }
